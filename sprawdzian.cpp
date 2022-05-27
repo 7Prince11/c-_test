@@ -1,6 +1,48 @@
 #include <iostream>
 using namespace std;
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
+	/*
+double ciag(int n)
+{
+	if(n==1) 
+		return 1;
+	if(n==2) 
+		return 0.5;
+
+return -ciag(n-1)*ciag(n-2);
+}
+*/
+/*
+void dec_to_bin(int liczba)
+{
+	if(liczba>0)
+	{
+		dec_to_bin(liczba/2); //przekazanie argumentu skróconego o jeden bit
+		//zapisanie tej instrukcji jako drugiej, pozwoli na
+		//wyswietlenie cyfr binarnych w prawidlowej kolejnosci
+		cout<<liczba%2; //wyswietlenie cyfry binarnej
+	}
+}
+int suma_cyfr(long long n)
+{
+	if(n>0)
+		return n%10 + suma_cyfr(n/10);
+		
+	return 0;
+}
+
+
+
+int ciag(int n)
+{
+	if(n<2) 
+		return -1;
+		
+	return -ciag(n-1)*n-3;
+}
+
+*/
+
 
 	//Rekurencja (NWD_E)
       
